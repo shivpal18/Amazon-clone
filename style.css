@@ -118,8 +118,46 @@ span {
     display: flex;
     color: white;
     align-items: center;
+    justify-content: space-evenly;
 }
 
 .panel-ops p {
     display: inline;
+    margin-left: 15px;
+}
+
+.panel-ops {
+    width: 70%;
+    font-weight: 1rem;
+}
+
+.panel-deals {
+    font-size: 1rem;
+    font-weight: 700;
+}
+
+/* hero section */
+.hero-section {
+    background-image: url(image2.jpg);
+    background-size: cover;
+    height: 350px;
+    display: flex;
+    justify-content: center;
+    align-items: flex-end;
+}
+
+.hero-msg {
+    background-color: white;
+    color: black;
+    height: 40px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 1rem;
+    width: 97%;
+    margin-bottom: 15px
+}
+
+.hero-msg a {
+    color: #007185;
 }
